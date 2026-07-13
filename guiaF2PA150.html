@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GUIA F2P A150</title>
 
     <style>
@@ -12,8 +13,22 @@
         }
        
         h1,h2{
+            font-family: sans-serif;
+            font-weight: bold;
             color: rgb(117, 169, 211);
             text-align: center;
+            text-transform: uppercase;
+            margin: 20px 0;
+        }
+
+        h1{
+            margin-right: -35px;
+            background: linear-gradient(135deg, #00d2ff 0%, #ffffff 50%, #0077ff 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+            filter: drop-shadow(0 0 8px rgba(0, 210, 255, 0.6));
         }
 
         h1,p{
@@ -33,7 +48,7 @@
         
         }
 
-        h1,.cavaleiros{
+        .cavaleiros{
             font-family: sans-serif;
             font-weight: bold;
             letter-spacing: 2px;
@@ -67,22 +82,28 @@
 
 
         #img-logo{
-            width: 800px;
+            width: 360px;
             display:block;
             margin-left: auto;
             margin-right: auto;
-            margin-left: 500px;
         }
 
         nav li{
-            display:inline;
+            display: inline-block;
             font-weight: bold;
-            margin-left: 20px;
             border: 2px double;
+            white-space: nowrap;
+            padding: 10px 30px;
+            text-align: center;
         } 
 
         nav{
-            float: right;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px 30px;
+            padding: 20px;
+            width: 100%;
         }
 
         @keyframes constelacao {
@@ -137,6 +158,15 @@
 
     <header>
 
+        <img id="img-logo" src="saintseiya.img" alt="Logo do saintseiya"/>
+
+        <h1>bem vindos, cavaleiros de Atena!</h1>
+
+        
+    </header>
+
+    <main>
+
         <nav>
             <ul>
                 <li class="cavaleiros">CAVALEIROS</li>
@@ -145,14 +175,8 @@
                 <li class="deuses">DEUSES</li>
             </ul>
         </nav>
-    </header>
 
-    <main>
-
-        <img id="img-logo" src="saintseiya.img" alt="Logo do saintseiya"/>
-
-        <h1>bem vindos, cavaleiros de Atena!</h1>
-        <p class="destaque">Bem-Vindos ao curso de CDZ mais completo de nordeste</p>
+        <p class="destaque">UM GUIA COMPLETO DE HABLIDADES PARA CONTAS INCIANTES OU COM POUCOS RECURSOS</p>
         
         <p>
             Clique <a target="_blank" href="http://google.com">aqui</a> para doar um pix para mim, meu consagrado!
