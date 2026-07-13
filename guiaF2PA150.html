@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>GUIA F2P A150</title>
+
+    <style>
+
+        body{
+            background-color: #060b13;
+        }
+       
+        h1,h2{
+            color: rgb(117, 169, 211);
+            text-align: center;
+        }
+
+        h1,p{
+            text-transform: uppercase;
+        }
+
+        p{
+            text-align: justify;
+            color: goldenrod;
+        }
+
+
+        .destaque{
+            background-color: #0b1424;
+            padding: 20px;
+            margin: 20px;
+        
+        }
+
+        h1,.cavaleiros{
+            font-family: sans-serif;
+            font-weight: bold;
+            letter-spacing: 2px;
+            list-style-type: none;
+            animation: constelacao 3s ease-in-out infinite;
+        }
+
+         .marinas{
+            font-family: sans-serif;
+            font-weight: bold;
+            letter-spacing: 2px;
+            list-style-type: none;
+            animation: profundezasmarinas 5s ease-in-out infinite;
+        }
+
+        .espectros{
+            font-family: sans-serif;
+            font-weight: bold;
+            letter-spacing: 2px;
+            list-style-type: none;
+            animation: energiasubmundo 4s ease-in-out infinite;
+        }
+
+        .deuses{
+            font-family: sans-serif;
+            font-weight: bold;
+            letter-spacing: 2px;
+            list-style-type: none;
+            animation: cosmodivino 2s ease-in-out infinite;
+        }
+
+
+        #img-logo{
+            width: 800px;
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-left: 500px;
+        }
+
+        nav li{
+            display:inline;
+            font-weight: bold;
+            margin-left: 20px;
+            border: 2px double;
+        } 
+
+        nav{
+            float: right;
+        }
+
+        @keyframes constelacao {
+  0%, 100% {
+    color: #ffffff;
+    text-shadow: 0 0 10px #00d2ff, 0 0 20px #0044ff;}
+    50% {
+        color: #a5f3fc;
+        text-shadow: 0 0 20px #0044ff, 0 0 35px #00008b;
+    }
+}
+    
+    @keyframes profundezasmarinas {
+  0%, 100% {
+    color: #002244;
+    text-shadow: 0 0 8px #0055ff, 0 0 20px #001133;
+  }
+  50%{
+    color: #b8860b;
+    text-shadow: 0 0 12px #ffaa00, 0 0 25px #553300;
+  }
+}
+
+    @keyframes energiasubmundo{
+  0%, 100% {
+    color: #4b0082;
+    text-shadow: 0 0 8px #8a2be2, 0 0 20px #1a0033;
+  }
+    50%{
+        color: #111111;
+        text-shadow: 0 0 15px #4b0082, 0 0 30px #000000;}
+    }
+
+    @keyframes cosmodivino{
+        0%,100% {
+        color: #ffffff;
+        text-shadow: 0 0 10px #ffcc00, 0 0 20px #ff6600, 0 0 35px #cc0000;
+        }
+        50%{
+            color: #ffe6b3;
+            text-shadow: 0 0 15px #ff4500, 0 0 30px #ff0000, 0 0 50px #4a0000;
+        }
+    }
+    
+    
+    </style>
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <nav>
+            <ul>
+                <li class="cavaleiros">CAVALEIROS</li>
+                <li class="marinas">MARINAS</li>
+                <li class="espectros">ESPECTROS</li>
+                <li class="deuses">DEUSES</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <img id="img-logo" src="saintseiya.img" alt="Logo do saintseiya"/>
+
+        <h1>bem vindos, cavaleiros de Atena!</h1>
+        <p class="destaque">Bem-Vindos ao curso de CDZ mais completo de nordeste</p>
+        
+        <p>
+            Clique <a target="_blank" href="http://google.com">aqui</a> para doar um pix para mim, meu consagrado!
+        </p>
+
+        <h2 class="destaque">Listas</h2>
+
+        <ol>
+            <li>CAVALEIROS</li>
+            <li>MARINAS</li>
+            <li>ESPECTROS</li>
+            <li>DEUSES</li>
+        </ol>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados!</p>
+    </footer>
+
+</body>
+
+</html>
